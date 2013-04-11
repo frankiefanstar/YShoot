@@ -77,7 +77,7 @@ public:
 
 	static Config* sharedConfig();
 
-	void init();
+//	void init();
 	bool getConfig();
 
 	//num of fires  敌机数量

@@ -124,10 +124,7 @@ vector<EnemyType> Config::getEnemyType()
     return m_enemyTypes;
 }
 
-//空方法 保证刚开始初始化
-void Config::init() {
 
-}
 
 //CCArray* Config::getPlayBullet() {
 //	return play_bullet;

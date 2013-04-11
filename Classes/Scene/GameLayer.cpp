@@ -55,8 +55,9 @@ bool GameLayer::init() {
 	enemy_bullet->retain();
 	enemy_items = CCArray::create();
 	enemy_items->retain();
+
 	//保证config初始化
-	Config::sharedConfig()->init();
+//	Config::sharedConfig()->init();
 
 	m_state = statePlaying;  //设置游戏状态为开始
 

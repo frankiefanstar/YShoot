@@ -1,4 +1,5 @@
-proj.android/obj/local/armeabi/*.[ao]
+proj.android/obj/local/armeabi/*.a
+proj.android/obj/local/armeabi/*.o
 proj.android/obj/local/armeabi/*.so
 
 proj.android/libs/armeabi/*.so
