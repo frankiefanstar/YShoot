@@ -10,9 +10,9 @@
 
 #include "cocos2d.h"
 
-using namespace cocos2d;
+USING_NS_CC;
 
-class GameOver : public cocos2d::CCLayer {
+class GameOver : public CCLayer {
 
 public:
 	GameOver();

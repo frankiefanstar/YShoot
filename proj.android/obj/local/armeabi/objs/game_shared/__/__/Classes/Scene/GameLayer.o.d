@@ -223,7 +223,10 @@ obj/local/armeabi/objs/game_shared/__/__/Classes//Scene/GameLayer.o: \
  jni/../../Classes//Scene/MenuScene.h \
  /home/rescue01/tools/cocos2d-x/cocos2dx-2.1.0/YShoot/proj.android/../../CocosDenshion/android/../include/SimpleAudioEngine.h \
  /home/rescue01/tools/cocos2d-x/cocos2dx-2.1.0/YShoot/proj.android/../../CocosDenshion/android/../include/Export.h \
- jni/../../Classes//Scene/UpgradeScene.h
+ jni/../../Classes//Scene/UpgradeScene.h \
+ jni/../../Classes/Layer/PopLayer.h jni/../../Classes/Layer/PopDialog.h \
+ jni/../../Classes/Layer/PassDialog.h \
+ jni/../../Classes/Layer/DialogLayer.h
 
 jni/../../Classes//Scene/GameLayer.h:
 
@@ -678,3 +681,11 @@ jni/../../Classes//Scene/MenuScene.h:
 /home/rescue01/tools/cocos2d-x/cocos2dx-2.1.0/YShoot/proj.android/../../CocosDenshion/android/../include/Export.h:
 
 jni/../../Classes//Scene/UpgradeScene.h:
+
+jni/../../Classes/Layer/PopLayer.h:
+
+jni/../../Classes/Layer/PopDialog.h:
+
+jni/../../Classes/Layer/PassDialog.h:
+
+jni/../../Classes/Layer/DialogLayer.h:

@@ -26,6 +26,12 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
 ../../Classes//Utilty/UILayer.cpp \
 ../../Classes//Utilty/Utilty.cpp \
 ../../Classes//Effect/Effect.cpp \
+../../Classes//Layer/PopLayer.cpp \
+../../Classes//Layer/PopDialog.cpp \
+../../Classes//Layer/DialogLayer.cpp \
+../../Classes//Layer/PassDialog.cpp \
+../../Classes//Layer/PauseLayer.cpp \
+
 
 
                    

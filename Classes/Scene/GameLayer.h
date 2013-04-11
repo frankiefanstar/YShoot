@@ -43,6 +43,8 @@ private :
 	CCLabelTTF *m_hpShow;
 	CCLabelTTF *m_energyShow;
 
+	bool shouldPop;
+
 	void initBackground();  //初始化背景图片
 	void movingBackground(); //每周期转背景
 	void initMenu();
@@ -72,6 +74,7 @@ public:
 	virtual bool ccTouchBegan(CCTouch* touch, CCEvent* event);
 	virtual void ccTouchMoved(CCTouch* touch, CCEvent* event);
 	virtual void ccTouchEnded(CCTouch* touch, CCEvent* event);
+	void doResumeGame();
 //	virtual void registerWithTouchDispatcher();
 	Hero* getHero();
 	CREATE_FUNC(GameLayer);
