@@ -48,9 +48,19 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>CLASS</name>
+			<type>2</type>
+			<locationURI>CLASS</locationURI>
+		</link>
+		<link>
 			<name>Classes</name>
 			<type>2</type>
 			<location>/home/rescue01/tools/cocos2d-x/cocos2dx-2.1.0/YShoot/Classes</location>
+		</link>
+		<link>
+			<name>RES</name>
+			<type>2</type>
+			<locationURI>RES</locationURI>
 		</link>
 		<link>
 			<name>Resources</name>
@@ -58,4 +68,14 @@
 			<location>/home/rescue01/tools/cocos2d-x/cocos2dx-2.1.0/YShoot/Resources</location>
 		</link>
 	</linkedResources>
+	<variableList>
+		<variable>
+			<name>CLASS</name>
+			<value>$%7BPARENT-1-PROJECT_LOC%7D/Classes</value>
+		</variable>
+		<variable>
+			<name>RES</name>
+			<value>$%7BPARENT-1-PROJECT_LOC%7D/Resources</value>
+		</variable>
+	</variableList>
 </projectDescription>
