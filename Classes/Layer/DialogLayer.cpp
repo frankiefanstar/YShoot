@@ -22,6 +22,9 @@ bool DialogLayer::init()
 
     do {
         CC_BREAK_IF(!CCLayerColor::initWithColor(ccc4(0, 0, 0, 125)));
+//        CC_BREAK_IF(!CCLayerColor::create(ccc4(0, 0, 0, 125)));
+//        CC_BREAK_IF(!CCLayerColor::create(ccc4(0, 0, 0, 125)));
+//        CCLayerColor::setOpacity(128);  //设置不透明程度
 
         onInitDialog();
         initMenu();

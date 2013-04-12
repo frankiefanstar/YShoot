@@ -26,8 +26,10 @@ bool PassDialog::onInitDialog()
     pushMenu(okMenuItem);
     pushMenu(cancelMenuItem);
 
-    setColor(ccc3(255,0,0));
-    setOpacity(128);
+//    setColor(ccc3(255,0,0));
+    setColor(ccc3(128, 128, 128));
+
+    setOpacity(125);
 
     return true;
 }
